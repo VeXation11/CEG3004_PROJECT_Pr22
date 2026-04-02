@@ -1,7 +1,12 @@
 # Experiment Log
 
-| Experiment | Preprocessing | Features | Model | Macro-F1 | Notes |
-|-----------|---------------|----------|-------|----------|------|
-| 1 | Basic normalization | Baseline MFCC stats | Logistic Regression | 0.xxx | Baseline result |
-| 2 | Trim + normalize + fixed 5s | MFCC + delta + delta2 | ExtraTrees | 0.53 | Better than baseline but unstable |
-| 3 | Trim + normalize + fixed 5s | Log-mel + MFCC + spectral + robust pooling | SVM (RBF) | 0.574 | Best validation result |
+| Experiment | Features | Model | Macro-F1 | Notes |
+|-----------|----------|-------|----------|------|
+| 1 | MFCC stats | Logistic Regression | baseline | baseline performance |
+| 2 | MFCC + spectral features | ExtraTrees | ~0.53 | improved but unstable |
+| 3 | Full DSP features + pooling | SVM (RBF) | ~0.574 | best result |
+
+## Observations
+- Adding spectral features improved performance significantly
+- Robust pooling improved stability
+- SVM performed better than tree-based models for this feature set
