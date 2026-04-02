@@ -98,11 +98,14 @@ The confusion matrix below shows the classification performance on the validatio
 ![Confusion Matrix Top](results/confusion_matrix_top.png)
 
 ## Repository Structure
-notebooks/ → implementation
-results/ → experiment logs
-docs/ → methodology & analysis
-submission/ → final outputs
 
+CEG3004_PROJECT_Pr22/
+├── notebooks/ # Jupyter notebook implementation
+├── results/ # experiment logs and visualizations
+├── docs/ # methodology, analysis, reproducibility
+├── submission/ # final model and predictions
+├── README.md
+├── requirements.txt
 
 ---
 
