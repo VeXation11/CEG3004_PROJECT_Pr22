@@ -4,11 +4,15 @@
 - Google Colab
 - Python 3
 
-## Steps
-1. Upload notebook
-2. Install requirements
-3. Place dataset in correct folder
-4. Run all cells
+## Required Libraries
+Install dependencies using:
+
+pip install -r requirements.txt
+
+## Running the Code
+1. Open the notebook in Google Colab
+2. Mount or upload dataset
+3. Run all cells sequentially
 
 ## Outputs
 - model.joblib
