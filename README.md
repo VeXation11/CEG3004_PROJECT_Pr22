@@ -86,6 +86,13 @@ Selected after comparing:
 
 ---
 
+## Confusion Matrix
+
+The confusion matrix below shows the classification performance on the validation set.
+
+![Confusion Matrix](results/confusion_matrix.png)
+![Confusion Matrix Top](results/confusion_matrix_top.png)
+
 ## Repository Structure
 notebooks/ → implementation
 results/ → experiment logs
