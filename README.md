@@ -78,11 +78,15 @@ Selected after comparing:
 
 ## Results
 
+## Results
+
 | Model | Macro-F1 |
 |------|--------|
-| Logistic Regression | baseline |
+| Logistic Regression | Baseline |
 | ExtraTrees | ~0.53 |
-| SVM (final) | ~0.574 |
+| SVM (RBF) | **~0.574** |
+
+The SVM model achieved the highest validation Macro-F1 score and was selected as the final model.
 
 ---
 
