@@ -1,6 +1,10 @@
 # CEG3004 Environmental Sound Classification
 
 ## Group ID: Pr_22
+```
+Isaac Chua 2302782
+Lin Wen Bin 2302797
+```
 
 ## Overview
 This project develops a robust audio classification pipeline for Environmental Sound Classification (ESC-50). The system is designed to classify 50 sound classes under clean, noisy, and band-limited conditions using DSP-based feature extraction and machine learning.
